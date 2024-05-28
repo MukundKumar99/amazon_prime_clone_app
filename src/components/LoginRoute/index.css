@@ -55,9 +55,7 @@
 }
 .login-title {
   height: 40px;
-  width: 78px;
-  left: 681px;
-  top: 356px;
+  text-align: center;
   color: #ffffff;
   font-weight: 500;
 }
