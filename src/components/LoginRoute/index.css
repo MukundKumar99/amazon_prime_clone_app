@@ -109,6 +109,10 @@
     cursor: pointer;
   }
 }
+.login-btn:hover {
+  background-color: rgb(242, 53, 53);
+  transform: scale(1.02);
+}
 .sign-in-btn {
   display: block;
   height: 40px;
@@ -126,6 +130,10 @@
     display: none;
   }
 }
+.sign-in-btn:hover {
+  background-color: rgb(242, 53, 53);
+  transform: scale(1.02);
+}
 .error-msg {
   font-size: 14px;
   color: #dc2626;
@@ -140,20 +148,29 @@
 }
 .hint-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: #fff;
-  margin-top: 6px;
-  border-radius: 2px;
+  justify-content: center;
+  margin-top: 8px;
+  border-radius: 3px;
+  background-color: rgb(219, 248, 238);
 }
 .hint {
   margin: 0 4px 0 4px;
   font-size: 16px;
   font-weight: 600;
   font-family: "Roboto";
+  color: #dc2626;
 }
 @media screen and (min-width: 768px) {
   .hint {
     font-size: 18px;
   }
+}
+.hint :nth-child(1) {
+  color: blue;
+}
+.hint :nth-child(n + 1) {
+  color: green;
+}
+.hint :nth-child(1) {
+  color: blue;
 }

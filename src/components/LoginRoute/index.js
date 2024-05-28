@@ -113,7 +113,11 @@ class LoginRoute extends Component {
             Sign in
           </button>
           <div className="hint-container">
-            <p className="hint">Hint- UN: rahul PW: rahul@2021</p>
+            <p className="hint">
+              <span className="hint">Hint-</span> <span>UN:</span> rahul
+              <span> PW: </span>
+              rahul@2021
+            </p>
           </div>
         </form>
       </div>
